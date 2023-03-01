@@ -20,9 +20,6 @@ for (let i = 0; i < height; i++)
     matrix[i][j] += Math.round(Math.random() * 90)
     sum += matrix[i][j]
     row += `${matrix[i][j]} `
-    if (matrix[i][j] == 10 || matrix[i][j] == 100){
-        test = true
-    }
   }
   console.log(row)
   if (sum > max) 
